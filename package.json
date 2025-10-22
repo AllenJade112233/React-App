@@ -1,0 +1,45 @@
+{
+  "name": "coffee-shop-spa",
+  "version": "1.0.0",
+  "description": "A single page application for a coffee shop.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"npm run server\" \"npm start\"",
+    "server": "cd backend && npm start"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-transition-group": "^4.4.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "react-scripts": "^5.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "http://example.com",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/username/coffee-shop-spa.git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
